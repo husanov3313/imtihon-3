@@ -1,0 +1,113 @@
+body{
+    background-color: #eee;
+}
+.container{
+    display: flex;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 200px;
+    flex: 1;
+    .burger{
+        display: inline-block;
+        position: relative;
+       
+
+        .burger-top{
+            padding: 50px 0 50px 0;
+            position: relative;
+            z-index: 999;
+        }
+
+        .img{
+            max-width: 100%;
+            position: absolute;  
+            top: 140px;
+            left: 0;    
+            z-index: 2;
+      
+        }
+        .img2{
+            max-width: 100%;
+            position: absolute;
+            top: 180px;
+            z-index: 1;
+            left: 0;  
+            
+
+        }
+        .img3{
+            max-width: 100%;
+            position: absolute;
+            top: 200px;
+            z-index: 0;
+            left: 0;  
+        }
+        .img4{
+            max-width: 100%;
+            position: absolute;
+            top: 220px;
+            left: 0;  
+        }
+        .img5{
+            max-width: 100%;
+            position: absolute;
+            top: 200px;
+            z-index: 2;
+            left: 0;  
+        }
+        .img6{
+            max-width: 100%;
+            position: absolute;
+            top: 110px;
+            z-index: 2;
+            left: 0;  
+        }
+
+        .bottom{
+            margin-top: 5;
+            position: absolute;
+            top: 250px;
+            left: 0;  
+        }
+    }
+}
+li{
+    list-style: none;
+
+    &:hover{
+        padding-left: 5px;
+        box-shadow: 0 0 20px;
+        font-size: 22px;
+    }
+    
+}
+.royxat{
+    background-color: rgb(94, 94, 65);
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+   ul{
+     li{
+        border: 1px solid white;
+        background-color: white;
+        color: black;margin-top: 10px;
+        border-radius: 5px;
+        width: 200px;
+
+    }
+}
+    ol{
+        display: flex;
+        gap: 10px;
+        li{
+            border: 1px solid white;
+            background-color: white;
+            color: black;
+            padding: 5px;
+            border-radius: 5px;
+
+        }
+
+    }
+}
